@@ -1,0 +1,64 @@
+.payments .image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+  max-width: 100%;
+}
+
+.payments .contant-container {
+  display: block;
+}
+
+.payments .contant-container .image-gallery .image-first {
+  background: url(../img/image-first-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.payments .contant-container .image-gallery .image-second {
+  background: url(../img/image-second-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.payments .contant-container .image-gallery .image-third {
+  background: url(../img/image-third-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.payments .contant-container .image-gallery .colspan-2 {
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .payments .contant-container .image-gallery .image-first {
+    background: url(../img/image-first-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .contant-container .image-gallery .image-second {
+    background: url(../img/image-second-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .contant-container .image-gallery .image-third {
+    background: url(../img/image-third-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 440px) {
+    .payments .image-gallery {
+    width: 790px;
+  }
+  .payments .contant-container {
+  display: flex;
+}
+
+  .payments .contant-container {
+    justify-content: space-between;
+  }
+
+  .payments .contant-container .text-content {
+    width: 360px;
+  }
+}
