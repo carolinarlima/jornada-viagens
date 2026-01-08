@@ -46,15 +46,15 @@
     background-size: cover;
   }
 }
-@media screen and (min-width: 440px) {
-    .payments .image-gallery {
+
+@media screen and (min-width: 1440px) {
+  .payments .image-gallery {
     width: 790px;
+    margin: 0px;
   }
-  .payments .contant-container {
-  display: flex;
-}
 
   .payments .contant-container {
+    display: flex;
     justify-content: space-between;
   }
 
