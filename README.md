@@ -12,6 +12,7 @@ O **Jornada Viagens** é um site institucional focado no setor de turismo, desen
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Mobile First](https://img.shields.io/badge/Design-Responsivo-8A2BE2?style=for-the-badge)
 ![Code Quality](https://img.shields.io/badge/Código-Semântico-brightgreen?style=for-the-badge)
+![Mobile First](https://img.shields.io/badge/Mobile--First-8A2BE2?style=for-the-badge&logo=mobile&logoColor=white)
 
 ---
 
