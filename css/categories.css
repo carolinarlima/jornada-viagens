@@ -18,11 +18,6 @@
   text-decoration: none;
 }
 
-.categories-cards .card h3 {
-  font-weight: var(--title-weight);
-  font-size: 28px;
-}
-
 /* trick */
 .categories-cards .card .single-line {
   padding-top: 50px;
