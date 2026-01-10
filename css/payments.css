@@ -1,4 +1,5 @@
-.payments .image-gallery {
+.payments .image-gallery,
+.payments-pacotes .image-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
@@ -7,58 +8,100 @@
   max-width: 100%;
 }
 
-.payments .contant-container {
+.payments-pacotes .contant-container .text-content .title {
+  font-size: 40px;
+}
+.payments-pacotes .contant-container .text-content .button {
+  margin-top: 24px;
+}
+
+.payments .contant-container,
+.payments-pacotes .contant-container {
   display: block;
 }
 
-.payments .contant-container .image-gallery .image-first {
+.payments .contant-container .image-gallery .image-first /* Home */ {
   background: url(../img/image-first-mobile.jpg) no-repeat;
   background-size: cover;
 }
 
-.payments .contant-container .image-gallery .image-second {
+.payments .contant-container .image-gallery .image-second /* Home */ {
   background: url(../img/image-second-mobile.jpg) no-repeat;
   background-size: cover;
 }
 
-.payments .contant-container .image-gallery .image-third {
+.payments .contant-container .image-gallery .image-third /* Home */ {
   background: url(../img/image-third-mobile.jpg) no-repeat;
   background-size: cover;
 }
 
-.payments .contant-container .image-gallery .colspan-2 {
+.payments-pacotes .contant-container .image-gallery .image-first /* Pacotes */ {
+  background: url(../img/imagem-pacote-1-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments-pacotes .contant-container .image-gallery .image-second /* Pacotes */ {
+  background: url(../img/imagem-pacote-2-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments-pacotes .contant-container .image-gallery .image-third /* Pacotes */ {
+  background: url(../img/imagem-pacote-3-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .contant-container .image-gallery .colspan-2,
+.payments-pacotes .contant-container .image-gallery .colspan-2 {
   grid-column: span 2;
 }
 
 @media screen and (min-width: 768px) {
-  .payments .contant-container .image-gallery .image-first {
+  .payments .contant-container .image-gallery .image-first /* Home */ {
     background: url(../img/image-first-desktop.jpg) no-repeat;
     background-size: cover;
   }
 
-  .payments .contant-container .image-gallery .image-second {
+  .payments .contant-container .image-gallery .image-second /* Home */ {
     background: url(../img/image-second-desktop.jpg) no-repeat;
     background-size: cover;
   }
 
-  .payments .contant-container .image-gallery .image-third {
+  .payments .contant-container .image-gallery .image-third /* Home */ {
     background: url(../img/image-third-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .payments-pacotes .contant-container .image-gallery .image-first /* Pacotes */ {
+    background: url(../img/imagem-pacote-1-desktop.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments-pacotes .contant-container .image-gallery .image-second /* Pacotes */ {
+    background: url(../img/imagem-pacote-2-desktop.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments-pacotes .contant-container .image-gallery .image-third /* Pacotes */ {
+    background: url(../img/imagem-pacote-3-desktop.png) no-repeat;
     background-size: cover;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .payments .image-gallery {
+  .payments .image-gallery,
+  .payments-pacotes .image-gallery {
     width: 790px;
     margin: 0px;
   }
 
-  .payments .contant-container {
+  .payments .contant-container,
+  .payments-pacotes .contant-container {
     display: flex;
     justify-content: space-between;
   }
 
-  .payments .contant-container .text-content {
+  .payments .contant-container .text-content,
+  .payments-pacotes .contant-container .text-content {
     width: 360px;
   }
 }
